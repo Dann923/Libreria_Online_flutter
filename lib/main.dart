@@ -31,9 +31,9 @@ void main(){
             ),
           ],
         ),
-        body: Container(
-          decoration: new BoxDecoration(color: Colors.black)
-        )
+        body: Container(color: Colors.black87,
+        //child: ListCardRoom()
+        ) 
       ),
     )
   );

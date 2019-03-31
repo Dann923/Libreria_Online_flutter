@@ -18,7 +18,7 @@ class ListCardLibros extends StatelessWidget {
               ),
             ),
           ),
-          //CardLibro("assets/images/el_caballo_de_troya1.jpg", "Room 1"),
+          CardLibros("assets/images/el_caballo_de_troya1.jpg", "Libro 1"),
           // CardRoom("assets/images/pic_house2.jpeg", "Room 2"),
           // CardRoom("assets/images/pic_house3.jpeg", "Room 3"),
           // CardRoom("assets/images/pic_house4.jpeg", "Room 4"),

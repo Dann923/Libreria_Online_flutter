@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-//import 'package:smart_house_application/screens/home/home.dart';
+import 'package:libreria_online/widgets/libros/list_card_libros.dart';
 
 void main(){
   runApp(
@@ -32,7 +31,7 @@ void main(){
           ],
         ),
         body: Container(color: Colors.black87,
-        //child: ListCardRoom()
+        //child: ListCardLibros()
         ) 
       ),
     )

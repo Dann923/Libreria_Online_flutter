@@ -30,9 +30,10 @@ void main(){
             ),
           ],
         ),
-        body: Container(color: Colors.black87,
-        //child: ListCardLibros()
-        ) 
+        body: Container(
+        color: Colors.black87,
+        child: ListCardLibros()
+        ),
       ),
     )
   );

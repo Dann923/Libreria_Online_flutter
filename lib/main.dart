@@ -31,7 +31,7 @@ void main(){
           ],
         ),
         body: Container(
-        color: Colors.black87,
+        color: Colors.white70,
         child: ListCardLibros()
         ),
       ),

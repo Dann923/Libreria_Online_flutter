@@ -1,30 +1,29 @@
 import 'package:flutter/material.dart';
-//import 'package:smart_house_application/screens/rooms/room_detail.dart';
 
 class CardLibros extends StatelessWidget {
   double paddingSize = 10.0;
   String pathImage = "";
-  String titleCard = "";
+  //String titleCard = "";
 
-  CardLibros(this.pathImage, this.titleCard);
+  CardLibros(this.pathImage);
 
   @override
   Widget build(BuildContext context) {
-    final cardTitle = Text(
-      titleCard,
-      textDirection: TextDirection.ltr,
-      style: TextStyle(
-          color: Colors.white,
-          fontSize: 24.0,
-          fontWeight: FontWeight.w500
-      ),
-    );
+    // final cardTitle = Text(
+    //   titleCard,
+    //   textDirection: TextDirection.ltr,
+    //   style: TextStyle(
+    //       color: Colors.white,
+    //       fontSize: 24.0,
+    //       fontWeight: FontWeight.w500
+    //   ),
+    // );
 
     final cardArrowFab = Positioned(
       bottom: paddingSize,
       right: paddingSize,
       child: FloatingActionButton(
-        heroTag: "fab1_$titleCard",
+        //heroTag: "fab1_$titleCard",
         backgroundColor: Colors.black38,
         // onPressed: (){
         //     Navigator.push(
@@ -39,19 +38,19 @@ class CardLibros extends StatelessWidget {
       ),
     );
 
-    final cardLightFab = Positioned(
-      top: paddingSize,
-      right: paddingSize,
-      child: FloatingActionButton(
-        heroTag: "fab2_$titleCard",
-        backgroundColor: Colors.transparent,
-        child: Icon(
-          Icons.lightbulb_outline,
-          color: Colors.white,
-        ),
-        onPressed: null,
-      ),
-    );
+    // final cardLightFab = Positioned(
+    //   top: paddingSize,
+    //   right: paddingSize,
+    //   child: FloatingActionButton(
+    //     heroTag: "fab2_$titleCard",
+    //     backgroundColor: Colors.transparent,
+    //     child: Icon(
+    //       Icons.lightbulb_outline,
+    //       color: Colors.white,
+    //     ),
+    //     onPressed: null,
+    //   ),
+    // );
 
     final cardContainer = Container(
         height: 200.0,
@@ -79,10 +78,10 @@ class CardLibros extends StatelessWidget {
           Positioned(
             bottom: paddingSize*2,
             left: paddingSize*2,
-            child: cardTitle,
+            //child: cardTitle,
           ),
           cardArrowFab,
-          cardLightFab
+          //cardLightFab
         ],
       )
     );

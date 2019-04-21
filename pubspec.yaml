@@ -40,6 +40,17 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/imagenes/el_caballo_de_troya1.jpg
+    - assets/imagenes/el_caballo_de_troya2.jpg
+    - assets/imagenes/el_caballo_de_troya3.jpg
+    - assets/imagenes/el_caballo_de_troya4.jpg
+    - assets/imagenes/el_caballo_de_troya5.jpg
+    - assets/imagenes/el_caballo_de_troya6.jpg
+    - assets/imagenes/el_caballo_de_troya7.jpg
+    - assets/imagenes/el_caballo_de_troya8.jpg
+    - assets/imagenes/el_caballo_de_troya9.jpg
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

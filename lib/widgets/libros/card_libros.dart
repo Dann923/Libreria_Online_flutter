@@ -6,17 +6,30 @@ class CardLibros extends StatelessWidget {
   String titulo = "";
   String descripcion = "";
 
+  double mHeght = 270.0;
+  double mWidth = 180.0;
+  double mLeft = 10.0;
+  double mRigth = 10.0;
+
   CardLibros(this.titulo, this.image, this.descripcion);
 
-  CardLibros.horList(this.titulo, this.image, this.descripcion) {}
+  CardLibros.horList(this.titulo, this.image, this.descripcion) {
+    this.mHeght = 270.0;
+    this.mWidth = 180.0;
+  }
 
-  CardLibros.verList(this.titulo, this.image, this.descripcion) {}
+  CardLibros.verList(this.titulo, this.image, this.descripcion, this.mLeft) {
+    this.mHeght = 230.0;
+    this.mWidth = 155.0;
+    this.mRigth = 30.0;
+    //this.mLeft = 30.0;
+  }
 
   @override
   Widget build(BuildContext context) {
-    final cardContainerHor = Container(
-      height: 270.0,
-      width: 180.0,
+    final cardContainer = Container(
+      height: this.mHeght,
+      width: this.mWidth,
       decoration: BoxDecoration(
           image: DecorationImage(
               image: AssetImage(image),
@@ -33,10 +46,10 @@ class CardLibros extends StatelessWidget {
     );
 
     return Container(
-        margin: EdgeInsets.only(left: 10.0, right: 10.0, top: 20.0),
+        margin: EdgeInsets.only(left: mLeft, right: mRigth, top: 20.0, bottom: 10.0),
         child: Stack(
           children: <Widget>[
-            cardContainerHor,
+            cardContainer,
           ],
         ));
   }

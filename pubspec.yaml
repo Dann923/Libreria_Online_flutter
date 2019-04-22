@@ -50,6 +50,20 @@ flutter:
     - assets/imagenes/el_caballo_de_troya7.jpg
     - assets/imagenes/el_caballo_de_troya8.jpg
     - assets/imagenes/el_caballo_de_troya9.jpg
+    - assets/imagenes/chemtrails.jpg
+    - assets/imagenes/doctrina_secreta1.jpg
+    - assets/imagenes/ingenieria_social.jpg
+    - assets/imagenes/libro_nod.jpg
+    - assets/imagenes/linux.jpg
+    - assets/imagenes/metafisica_magia.jpg
+    - assets/imagenes/necronomicon.jpg
+    - assets/imagenes/penetration_testing.jpg
+    - assets/imagenes/proyecto_majestic.jpg
+    - assets/imagenes/reptilianos.jpg
+    - assets/imagenes/san_cipriano.jpg
+    - assets/imagenes/secretos_vaticano.jpg
+    - assets/imagenes/tierra_hueca.jpg
+    - assets/imagenes/viaje_astral.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:

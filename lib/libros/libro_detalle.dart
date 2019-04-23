@@ -16,9 +16,7 @@ class LibroDetalle extends StatelessWidget {
         "Los más vistos:",
         textDirection: TextDirection.ltr,
         style: TextStyle(
-            fontSize: 28.0,
-            fontWeight: FontWeight.w600,
-            color: Colors.black87),
+            fontSize: 28.0, fontWeight: FontWeight.w600, color: Colors.black87),
       ),
     );
 
@@ -73,6 +71,16 @@ class LibroDetalle extends StatelessWidget {
             mImage,
             mTitulo,
             mDescripcion,
+            Center(
+              child: RaisedButton(
+                  color: Colors.green,
+                  child: Text("Descargar",
+                      style: TextStyle(
+                          fontSize: 28.0,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white)),
+                  onPressed: null),
+            ),
             mText,
             Container(
               padding: EdgeInsets.only(left: 5.0, top: 5.0),

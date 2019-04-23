@@ -16,7 +16,7 @@ void main(){
               "Libreria Online",
               textDirection: TextDirection.ltr,
               style: TextStyle(
-                fontSize: 24.0
+                fontSize: 24.0, fontWeight: FontWeight.w600,
               ),
             ),
           ),

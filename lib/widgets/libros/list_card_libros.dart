@@ -11,7 +11,7 @@ class ListCardLibros extends StatelessWidget {
         "Los más vistos:",
         textDirection: TextDirection.ltr,
         style: TextStyle(
-            fontSize: 28.0, fontWeight: FontWeight.w500, color: Colors.black87),
+            fontSize: 28.0, fontWeight: FontWeight.w600, color: Colors.black87),
       ),
     );
 
@@ -49,16 +49,6 @@ class ListCardLibros extends StatelessWidget {
       ),
     );
 
-    final mVerticalList = Container(
-      height: 240.0,
-      margin: EdgeInsets.only(bottom: 50.0),
-      child: ListView(
-        //scrollDirection: Axis.horizontal,
-        children: <Widget>[
-       ],
-      ),
-    );
-
     return ListView(
       children: <Widget>[
         Container(
@@ -68,7 +58,7 @@ class ListCardLibros extends StatelessWidget {
             textDirection: TextDirection.ltr,
             style: TextStyle(
                 fontSize: 28.0,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w600,
                 color: Colors.black87),
           ),
         ),

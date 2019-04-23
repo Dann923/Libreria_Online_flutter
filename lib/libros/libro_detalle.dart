@@ -10,7 +10,7 @@ class LibroDetalle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final mTitle = Container(
+    final mTitulo = Container(
         padding: EdgeInsets.all(15.0),
         child: Align(
           alignment: Alignment.topLeft,
@@ -28,15 +28,16 @@ class LibroDetalle extends StatelessWidget {
 
     final mImage = Container(
       height: 300.0,
+      width: 180.0,
       decoration: BoxDecoration(
           image: DecorationImage(
-              fit: BoxFit.cover,
+              //fit: BoxFit.cover,
               image: AssetImage(image)
           )
       ),
     );
 
-    final mDescription = Container(
+    final mDescripcion = Container(
         padding: EdgeInsets.only(left: 15.0, bottom: 10.0,right: 15.0),
         child: Align(
           alignment: Alignment.topLeft,
@@ -57,12 +58,12 @@ class LibroDetalle extends StatelessWidget {
         backgroundColor: Colors.black87,
       ),
       body: Container(
-        decoration: new BoxDecoration(color: Colors.black),
+        decoration: new BoxDecoration(color: Colors.white10),
         child: ListView(
           children: <Widget>[
-            mTitle,
+            mTitulo,
             mImage,
-            mDescription,
+            mDescripcion,
           ],
         ),
       ),

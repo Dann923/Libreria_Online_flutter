@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:libreria_online/widgets/libros/card_libros.dart';
+import 'package:libreria_online/libros/libro_detalle.dart';
 
 class ListCardLibros extends StatelessWidget {
   @override

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:libreria_online/libros/libro_detalle.dart';
 
 class CardLibros extends StatelessWidget {
   double paddingSize = 10.0;
@@ -45,12 +46,22 @@ class CardLibros extends StatelessWidget {
           ]),
     );
 
-    return Container(
-        margin: EdgeInsets.only(left: mLeft, right: mRigth, top: 20.0, bottom: 10.0),
-        child: Stack(
-          children: <Widget>[
-            cardContainer,
-          ],
-        ));
+    return GestureDetector(
+      onTap: () {
+        if (titulo != null) {
+          Navigator.push(context, MaterialPageRoute(builder: (_) {
+            return LibroDetalle(titulo, image, descripcion);
+          }));
+        }
+      },
+      child: Container(
+          margin: EdgeInsets.only(
+              left: mLeft, right: mRigth, top: 20.0, bottom: 10.0),
+          child: Stack(
+            children: <Widget>[
+              cardContainer,
+            ],
+          )),
+    );
   }
 }

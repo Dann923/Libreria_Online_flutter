@@ -91,6 +91,40 @@ class LibroDetalle extends StatelessWidget {
                 ],
               ),
             ),
+            Container(
+              padding: EdgeInsets.only(left: 5.0, top: 5.0),
+              child: Stack(
+                children: <Widget>[
+                  CardLibros.verList(
+                      "La Historia Secreta de los Reptilianos",
+                      "assets/imagenes/reptilianos.jpg",
+                      "Los reptiloides, también conocidos como reptilianos, hombres lagarto o draconianos, son reptiles humanoides....",
+                      50.0),
+                  CardLibros.verList(
+                      "El Libro Magno San Cipriano",
+                      "assets/imagenes/san_cipriano.jpg",
+                      "Libro completo de verdadera magia o sea tesoro del Hechicero excrito en pergaminos antiguos Hebreos.",
+                      260.0),
+                ],
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.only(left: 5.0, top: 5.0),
+              child: Stack(
+                children: <Widget>[
+                  CardLibros.verList(
+                      "Viaje Astral",
+                      "assets/imagenes/viaje_astral.jpg",
+                      "Es la sensación de estar flotando proyectado fuera del cuerpo. En algunos casos, el sujeto puede experimentar la autoscopia (posibilidad de ver el propio cuerpo desde el punto de vista de un observador externo).",
+                      50.0),
+                  CardLibros.verList(
+                      "Ingeniería Social",
+                      "assets/imagenes/ingenieria_social.jpg",
+                      "En la práctica, un ingeniero social usará comúnmente el teléfono o Internet para engañar a la gente, fingiendo ser, por ejemplo, un empleado de algún banco o alguna otra empresa.",
+                      260.0),
+                ],
+              ),
+            ),
           ],
         ),
       ),
